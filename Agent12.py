@@ -1,3 +1,6 @@
+# Agent12 written by Tyler Sartin 20 April 2013
+# Enjoy!
+
 from random import randint
 
 # This class defines the Player. The player has a 'moves' attribute that inclues all possible
