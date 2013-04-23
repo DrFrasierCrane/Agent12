@@ -1,4 +1,4 @@
-# Agent12 written by Tyler Sartin 20 April 2013
+# Agent12 written by Tyler Sartin 23 April 2013
 # Enjoy!
 
 from random import randint
@@ -155,7 +155,7 @@ class SecurityRoom(Scene):
 		print "Nice work! You successfully hacked Chang's computer, you quickly locate "
 		print "the MSS map and additional files located on his computer."
 		print "You download the MSS map onto your PDA and make your way to the main security "
-		print "room. You take the main elevator as you're disguised as a MSS guard. You "
+		print "room. You take the main elevator as you're disguised as an MSS guard. You "
 		print "look out the glass windows of the elevator and admire the numerous lights "
 		print "sparkling across Beijing."
 		print "\nYou enter the main security room and nod to the desk agent named 'Lee'. "
@@ -330,7 +330,7 @@ class Engine(object):
 		print "| ONLY BY THE CODENAME A12. YOUR MISSION, SHOULD YOU CHOOSE TO ACCEPT IT,| "
 		print "| IS TO INFILTRATE CHINA'S MINISTRY OF STATE SECURITY, HACK INTO THE     | "
 		print "| MAIN SERVER, AND RUN 'virus.exe' DESIGNED TO STREAM ALL U.S. SECRETS   | "
-		print "| IN CHINA'S POSESSION TO THE PENTAGON.                                  | "
+		print "| IN CHINA'S POSSESSION TO THE PENTAGON.                                 | "
 		print "|                                                                        | "
 		print "| GOOD LUCK...                                                           |\n"
 		print "==========================================================================\n"
