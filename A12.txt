@@ -1,0 +1,81 @@
+The game will be about an unnamed spy that is referred to only as "Agent 12." 
+Agent 12's job is to infiltrate the Ministry of State Security of the People's Republic of 
+China's main server located in Beijing to install a virus designed to locate all local US 
+intelligence and report to the CIA.
+
+Agent 12 will have many obstacles to defeat, including but not limited to passing through 
+main security, locating the main server room, navigating through access ducts, silencing 
+and mitigating main server security, and hacking the main server. Agent 12 must then 
+escape the MSS after planting the virus. 
+
+The various hacking puzzles should be small games such as guessing codes, hacking passwords, 
+etc. Maybe solving riddles. 
+
+Perhaps A12 can gain XP and defeat enemies though various skills?
+
+Maybe give A12 a tablet or some spy technology that has a dossier on each official they
+will come in contact with. Could assist in hacking passwords.
+
+Main scenes:
+* Death - The spy is killed by someone or something. There are hidden traps throughout
+		  the MSS that kill the spy.
+		  
+* Capture - The spy is captured by the MSS.
+ 
+* Manhole entrance outside MSS - A12 must sneak in through the manhole outside of the MSS
+		  A12 runs into a crew of MSS guards and s/he must pick between a few different routes.
+
+* 2nd floor office terminal - A12 must hack in to a low-level official's computer to find
+		  a building map. A12 must use her/his dossier to find information to hack the password.
+
+* Camera room - A12 must hack into the camera server and loop the cameras. If A12 doesn't
+		  stop the loop correctly in order to correct the feed loop.
+
+* Main server room - A12 must hack into the main server and plant the virus.
+
+* MSS rooftop - A12 must escape to the rooftop and basejump off to the ground to escape.
+
+Nouns:A12
+MSS
+Guard
+Death
+Scene
+PDA
+Computer terminal
+Virus
+Dossier
+Map
+Engine
+XP
+XP engine
+
+
+Class Hierarchy:
+* Scene
+   + enter()
+   - Death
+   - Capture
+   - Sewers
+   - 2nd floor terminal
+   - Security room
+   - Main server room
+   - Rooftop
+
+* Player
+   + fight()
+   + show_moves()
+   - A12
+   - Enemy
+
+* PDA
+   + query()
+   + display()
+   - Dossier
+
+* Engine
+   + play()
+
+* Map
+   + opening_scene()
+   + next_scene()
+
